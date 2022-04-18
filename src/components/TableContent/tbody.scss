@@ -1,0 +1,28 @@
+.tbody {
+  font-size: 12px;
+  &__id-header {
+    cursor: pointer;
+  }
+  &__title {
+    border-left: 1px solid #2e465c;
+    text-align: left;
+  }
+  &__number {
+    cursor: pointer;
+    border-left: 1px solid #2e465c;
+  }
+  &__row {
+    color: #2b455c;
+    font-weight: 300;
+    border-top: 1px solid #9cd0ff;
+  }
+  &__id {
+    text-align: center;
+    width: 2rem;
+    border-right: 1px solid #9cd0ff;
+  }
+  &__number-row {
+    text-align: center;
+    border-left: 1px solid #9cd0ff;
+  }
+}

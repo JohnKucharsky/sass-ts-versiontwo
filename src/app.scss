@@ -1,0 +1,75 @@
+.app {
+  padding: 1.5rem 1rem;
+  &__search {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  &__search-option {
+    background: #c4c4c4;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+  &__search-close {
+    display: grid;
+    cursor: pointer;
+    place-content: center;
+    width: 36px;
+    height: 36px;
+    background: #c4c4c4;
+
+    border-radius: 50%;
+  }
+  &__search-input {
+    background: #c4c4c4;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__search-look {
+    display: grid;
+    cursor: pointer;
+    place-content: center;
+    width: 36px;
+    height: 36px;
+    background: #c4c4c4;
+
+    border-radius: 50%;
+  }
+}
+.lev1 {
+  padding: 0.5rem 1rem;
+  &__line {
+    border-left: 2px solid #999999;
+    height: 2rem;
+    margin-left: 1rem;
+    position: absolute;
+  }
+  &__line-hor {
+    border-bottom: 2px solid #999999;
+    width: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    position: absolute;
+  }
+}
+.lev2 {
+  padding: 1rem 0 0.5rem 1rem;
+  margin-left: 2rem;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: 1rem;
+    border-left: 2px solid #999999;
+    padding: 1.2rem;
+  }
+}

@@ -1,0 +1,28 @@
+.table {
+  border: 1px solid #2e465c;
+  border-radius: 1.5px;
+  min-width: 300px;
+  background: #f1f9ff;
+  &__header {
+    cursor: pointer;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__header-title {
+    font-size: 18px;
+    line-height: 0.8rem;
+    color: #2e465c;
+    font-weight: 600;
+  }
+  &__header-subtitle {
+    font-size: 14px;
+    line-height: 0.4rem;
+  }
+  &__header-date {
+    color: #2e465c;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
